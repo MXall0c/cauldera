@@ -18,7 +18,7 @@ There are 7z files of the 1-6 rulesets, as well as the basewords. Sorted, unique
 724181 <<div>> sa@ $@ $3
 719557 <<div>> sa@ $@ $2
 ```
-Before you ask, I used " <<dev>>> " as the count & value separator becasue I wasn't sure what the hell might actually end up in the rules.
+Before you ask, I used ```" <<div>> "``` as the count & value separator becasue I wasn't sure what the hell might actually end up in the rules.
  
 ## future
 I'm in the process of running [pcfg_cracker](https://github.com/lakiw/pcfg_cracker) (another amazing tool) against Rocktastic to experiment with that. 
