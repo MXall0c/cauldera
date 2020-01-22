@@ -1,13 +1,17 @@
 # cauldera
 Distillations, expansions and riffs on Rocktastic
 ## wot
-[Rocktastic12a](https://labs.nettitude.com/tools/rocktastic/) is an awesome wordlist. It is an absolute beast. Ever wonder what might happen if you could actually run [PACK](https://github.com/iphelix/pack) against something this huge?
+[Rocktastic12a](https://labs.nettitude.com/tools/rocktastic/) is an awesome wordlist. It is an absolute beast. Ever wonder what might happen if you could actually run [PACK](https://github.com/iphelix/pack) rulegen against something this huge?
 
 Me too.
 
-It took about 5 days to finish and promptly crapped itself on analyzing 310 gigs of rules. Thats about 23 times the size of Rocktastic itself. 
+It took about 5 days to finish and promptly crapped itself on analyzing 310 gigs of rules. 
+
+Thats about 23 times the size of Rocktastic itself. 
 
 If we're liberal with estimates, that's about 230 billion rules...
+
+Anyways, it involved a rediculous amount rules and gigantic files. I hope you find the results as interesting and useful as I have.
 
 ## now
 It's still a work in progress, counting & uniquing the billions of rules that are present in the 7-10 combo sets is a 'bigdata' problem I'm bumbling through. SO, instead of just sitting on everything perpetually I thought I'd release an incomplete, yet still VERY USEFUL collection.
