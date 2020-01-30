@@ -22,6 +22,7 @@ Anyways, it involved a rediculous amount rules and gigantic files. I hope you fi
 
 ## some stats
 *Top 10 Words*
+
 | hits    | word     |
 |---------|----------|
 | 1021688 | love     |
@@ -36,6 +37,7 @@ Anyways, it involved a rediculous amount rules and gigantic files. I hope you fi
 | 590776  | lovesick |
 
 *Top 10 Rules (leaving out :)*
+
 | hits    | rule   |
 |---------|--------|
 | 1651097 | $1     |
