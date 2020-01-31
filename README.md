@@ -19,6 +19,24 @@ If we're liberal with estimates, that's about 230 billion rules...
 
 Anyways, it involved a rediculous amount rules and gigantic files. I hope you find the results as interesting and useful as I have.
 
+## PCFG set trained on Rocktastic
+!!NEW!! 1/30/2020
+
+I'm sharing a pcfg_cracker set trained on Rocktastic. It's a beast (natch).
+
+It was trained with default settings, the wordlist unmodified. 
+
+**Usage:**
+1. Get a computer with at least 32G RAM (I'm not kidding)
+2. Clone [pcfg_cracker](https://github.com/lakiw/pcfg_cracker)
+3. Grab the trained set in my releases [here](https://github.com/aaronjones111/cauldera/releases)
+4. Decompress & place in your ./pcfg_cracker/Rules directory 
+5. Ram it into hashcat: 
+
+```python3 ./pcfg_cracker/pcfg_guesser.py -r rock_pcfg | hc -O --stdin-timeout-abort 600 --potfile-path pottypotpot -a 0 -m 1000 ntlmhashes -r superrule.rule ```
+
+Good luck!
+
 ## now
 It's still a work in progress, counting & uniquing the billions of rules that are present in the 7-10 combo sets is a 'bigdata' problem I'm bumbling through. SO, instead of just sitting on everything perpetually I thought I'd release an incomplete, yet still VERY USEFUL collection.
 
@@ -29,9 +47,6 @@ There are 7z files of the 1-6 rulesets, as well as the basewords. Sorted, unique
 719557 <<div>> sa@ $@ $2
 ```
 Before you ask, I used ```" <<div>> "``` as the count & value separator becasue I wasn't sure what the hell might actually end up in the rules.
- 
-## future
-I'm in the process of running [pcfg_cracker](https://github.com/lakiw/pcfg_cracker) (another amazing tool) against Rocktastic to experiment with that. 
 
 ## some info & a strange theory
 I find passwords absolutely fascinating. Cracking passwords is this crazy interesection of statistics and psychology that provides endless hours of entertainment. 
