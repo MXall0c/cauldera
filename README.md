@@ -46,7 +46,7 @@ There are 7z files of the 1-6 rulesets, as well as the basewords. Sorted, unique
 724181 <<div>> sa@ $@ $3
 719557 <<div>> sa@ $@ $2
 ```
-Before you ask, I used ```" <<div>> "``` as the count & value separator becasue I wasn't sure what the hell might actually end up in the rules.
+Before you ask, I used ```" <<div>> "``` as the count & value separator becasue I wasn't sure what the hell might actually end up in the rules. Simply ``` awk -F ' <<div>> ' '{print $2}' ``` to get the goodz.
 
 ## some info & a strange theory
 I find passwords absolutely fascinating. Cracking passwords is this crazy interesection of statistics and psychology that provides endless hours of entertainment. 
